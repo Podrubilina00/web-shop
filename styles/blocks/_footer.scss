@@ -1,0 +1,38 @@
+@import "_variables";
+
+.footer {
+    padding-top: 24px;
+    padding-bottom: 23px;
+
+    background: $black;
+}
+
+.footer__innner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.footer__copyright {
+    margin-top: 6px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: $beige;
+}
+
+.copyright__link {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s linear;
+
+    &:hover {
+        color: $main-color;
+    }
+}
+
+
+
+

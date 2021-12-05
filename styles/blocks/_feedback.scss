@@ -1,0 +1,121 @@
+@import "_variables";
+
+.feedback {
+    padding-top: 87px;
+    padding-bottom: 126px;
+    background: rgba(244, 244, 244, 0.7) url("/img/feedback/feedback__bg.jpg") center no-repeat;
+
+    background-size: cover;
+
+    text-align: center;
+}
+
+.feedback__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.feedback__review {
+    width: 360px;
+}
+
+.feedback__text {
+    padding-top: 30px;
+
+
+    font-weight: $fw-regular;
+    font-size: 20px;
+    line-height: 24px;
+
+    font-style: italic;
+
+    color: $black;
+
+}
+
+.feedback__subscribe {
+    width: 557px;
+}
+
+.feedback__title {
+    padding-top: 63px;
+    padding-bottom: 3px;
+
+    font-weight: $fw-bold;
+    font-size: 24px;
+    line-height: 40px;
+
+    color:$black;
+}
+
+.feedback__subtitle {
+    padding-bottom: 32px;
+
+    font-weight: $fw-regular;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: $black;
+}
+
+.feedback__form {
+    padding-left: 100px;
+    width: auto;
+    float: left;
+}
+
+.feedback__input {
+    position: relative;
+
+    width: 256px;
+    padding: 18px 64px 16px 22px;
+    margin-right: 0;
+
+    border-radius: 22px 0 0 22px;
+    border: 0;
+    outline: none;
+
+    color: $black;
+    opacity: 0.67;
+
+    background: #E1E1E1;
+
+    transition: box-shadow .4s linear;
+
+    &:hover {
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.195);
+    }
+
+    &:focus {
+        background: #E1E1E1;
+    }
+}
+
+
+.feedback__button {
+    position: absolute;
+    
+    margin-left: -4px;
+    width: 100px;
+    
+    padding: 18px 7px 16px 8px;
+
+    border-radius: 0 22px 22px 0;
+    border: 0;
+    cursor: pointer;
+
+    color: #FFF;
+
+    background-color: $main-color;
+
+    transition: box-shadow .2s linear;
+    transition: background-color .4s linear;
+    transition: .3s linear;
+
+    &:hover {
+        width: 110px;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.195);
+        background: $main-color-dark;
+    }
+}

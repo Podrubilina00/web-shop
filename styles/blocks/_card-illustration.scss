@@ -1,0 +1,41 @@
+@import "_variables";
+
+.illustration {
+    padding-top: 11px;
+    padding-bottom: 42px;
+    background: $beige;
+}
+
+.illustration__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.illustration__slider .nav {
+    top: 600px;
+    position: absolute;
+    padding: 13px 17px;
+    background-color: rgba(42, 42, 42, 0.15);
+
+    
+  }
+  
+  .illustration__slider .nav svg {
+    fill: black;
+    transition: .2s linear;
+  }
+  
+  .illustration__slider .nav:hover svg {
+    transition: .2s linear;
+    fill: #F16D7F;
+  }
+  
+  .illustration__slider .prev {
+    left: 0;
+  }
+  
+  .illustration__slider .next {
+    right: 0;
+  }

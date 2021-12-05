@@ -1,0 +1,43 @@
+@import "_variables";
+
+.promo {
+    background: $main-color-light;
+    height: 764px;
+}
+
+.promo__content {
+    display: flex;
+    margin-left: -231px;
+}
+
+.promo__title {
+    padding-left: 91px;
+    display: flex;
+    align-items: center;
+    min-height: 93px;
+}
+
+.promo__title--big {
+    font-weight: $fw-black;
+    font-size: 48px;
+    line-height: 58px;
+    color: $black;
+}
+
+.promo__title--normal {
+    padding-left: 16px;
+    border-width: 16px;
+    border-color: $main-color;
+    border-left-style: solid;
+    font-weight: $fw-bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: $black;
+}
+
+.promo__title--pink {
+    font-weight: $fw-bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: $main-color;
+}

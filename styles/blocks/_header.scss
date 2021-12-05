@@ -1,0 +1,66 @@
+@import "_variables";
+
+.header {
+    background: $black;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.header__left {
+    display: flex;
+    margin-top: 8px;
+}
+
+.header__form {
+    display: flex;
+    padding-left: 41px;
+    margin-top: 2px;
+}
+
+.header__item {
+    padding-left: 33px;
+    text-decoration: none;
+    fill: $beige;
+
+    transition: fill .2s linear;
+
+    &:first-child {
+        padding-left: 0;
+    }
+
+    &:hover {
+        fill: $main-color;
+    }
+}
+
+
+.header__icon {
+    margin-top: 8px;
+}
+
+.header__icon--search {
+    width: 26px;
+    height: 27px;
+}
+
+.header__icon--burger {
+    width: 32px;
+    height: 23px;
+}
+
+.header__icon--reg {
+    width: 29px;
+    height: 29px;
+}
+
+.header__icon--basket {
+    width: 41px;
+    height: 37px;
+}
