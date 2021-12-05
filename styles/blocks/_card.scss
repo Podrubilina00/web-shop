@@ -1,0 +1,151 @@
+@import "_variables";
+
+.card {
+    margin-bottom: 70px;
+}
+
+.card__box {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-top: -45px;
+    background: #FFF;
+    border: solid 1px;
+    border-color: $beige;
+}
+
+.card__inner {
+    max-width: 641px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.card__item--up {
+    text-align: center;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.card__category {
+
+    font-weight: $fw-light;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: $main-color;
+}
+
+.card__dash {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.card__name {
+    font-weight: $fw-light;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #4D4D4D;
+}
+
+.card__description {
+    padding-top: 48px;
+    padding-bottom: 32px;
+
+    margin-left: 42px;
+
+    max-width: 550px;
+
+    font-weight: $fw-light;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #5E5E5E;
+}
+
+.card__price {
+    padding-bottom: 65px;
+
+    font-weight: $fw-light;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: $main-color;
+}
+
+.card__item--down {
+    padding-top: 65px;
+}
+
+.card__filter {
+    display: flex;
+    justify-content: center;
+}
+
+.card__img {
+    margin-right: 21px
+}
+
+.card__button-box .card__button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+
+    margin-top: 48px;
+    margin-left: 225px;
+
+
+    padding: 12.62px 31.5px 8.57px 23.5px;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    width: 211px;
+    height: 47px;
+    border: 1px solid $main-color;
+
+    fill: $main-color;
+
+    font-weight: $fw-regular;
+    font-size: 15px;
+    line-height: 19px;
+
+    transition: .3s ;
+
+    &:hover {
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.195);
+    }
+}
+
+.card__text--pink {
+    color: $main-color;
+}
+
+.card__button-box .card__button:hover {
+    background-color: #F16D7F;
+    color: #fff;
+}
+
+.card__button-box .card__button:hover .card__img{
+    fill: #fff;
+}
+ 
+.card__img {
+    width: 26px;
+    height: 24px;
+    fill: $main-color;
+}
+
+.card__text {
+    margin-left: 23px;
+
+    margin-bottom: 5px;
+    font-weight: $fw-regular;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: $main-color;
+}
+
+
